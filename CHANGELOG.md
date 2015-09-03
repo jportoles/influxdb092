@@ -28,6 +28,7 @@ With this release InfluxDB is moving to Go 1.5.
 - [#3950](https://github.com/influxdb/influxdb/pull/3950): Limit bz1 quickcheck tests to 10 iterations on CI
 - [#3977](https://github.com/influxdb/influxdb/pull/3977): Silence wal logging during testing
 - [#3931](https://github.com/influxdb/influxdb/pull/3931): Don't precreate shard groups entirely in the past
+- [#3980](https://github.com/influxdb/influxdb/pull/3980): 'service stop' waits until service actually stops. Fixes issue #3548.
 
 ## v0.9.3 [2015-08-26]
 
