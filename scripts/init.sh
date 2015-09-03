@@ -104,6 +104,19 @@ function killproc() {
     PID=`cat $2`
 
     kill -s $3 $PID
+    while true; do
+        pidof `basename $DAEMON`
+        if [ $? -ne 0 ]; then
+            return 0
+        fi
+
+        sleep 1
+        n=$(expr $n + 1)
+        if [ $n -eq 30 ]; then
+            kill -s SIGKILL $PID
+            return 0
+        fi
+    done
 }
 
 function log_failure_msg() {
