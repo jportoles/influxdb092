@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/influxql"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 // Query is used to send a command to the server. Both Command and Database are required.
