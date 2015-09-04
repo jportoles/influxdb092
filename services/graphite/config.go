@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/influxdb/influxdb/toml"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/toml"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 const (

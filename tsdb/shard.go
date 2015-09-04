@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/tsdb/internal"
+	"github.com/jportoles/influxdb092/influxql"
+	"github.com/jportoles/influxdb092/tsdb/internal"
 
 	"github.com/boltdb/bolt"
 	"github.com/gogo/protobuf/proto"

@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/cluster"
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/meta"
+	"github.com/jportoles/influxdb092/cluster"
+	"github.com/jportoles/influxdb092/influxql"
+	"github.com/jportoles/influxdb092/meta"
 )
 
 var (

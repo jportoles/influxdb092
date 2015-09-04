@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdb/influxdb/cluster"
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/services/graphite"
-	"github.com/influxdb/influxdb/toml"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/cluster"
+	"github.com/jportoles/influxdb092/meta"
+	"github.com/jportoles/influxdb092/services/graphite"
+	"github.com/jportoles/influxdb092/toml"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 func Test_ServerGraphiteTCP(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdb/influxdb/toml"
+	"github.com/jportoles/influxdb092/toml"
 )
 
 // Ensure that megabyte sizes can be parsed.

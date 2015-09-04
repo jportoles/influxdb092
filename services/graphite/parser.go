@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 var defaultTemplate *template

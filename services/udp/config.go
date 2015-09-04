@@ -1,6 +1,6 @@
 package udp
 
-import "github.com/influxdb/influxdb/toml"
+import "github.com/jportoles/influxdb092/toml"
 
 type Config struct {
 	Enabled     bool   `toml:"enabled"`

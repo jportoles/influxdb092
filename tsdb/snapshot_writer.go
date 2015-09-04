@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/influxdb/influxdb/snapshot"
+	"github.com/jportoles/influxdb092/snapshot"
 )
 
 // NewSnapshotWriter returns a new snapshot.Writer that will write

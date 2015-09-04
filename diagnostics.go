@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
+	"github.com/jportoles/influxdb092/influxql"
 )
 
 // GoDiagnostics captures basic information about the runtime.

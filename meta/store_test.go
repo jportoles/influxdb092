@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/tcp"
-	"github.com/influxdb/influxdb/toml"
+	"github.com/jportoles/influxdb092/meta"
+	"github.com/jportoles/influxdb092/tcp"
+	"github.com/jportoles/influxdb092/toml"
 	"golang.org/x/crypto/bcrypt"
 )
 

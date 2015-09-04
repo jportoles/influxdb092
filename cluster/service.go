@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/meta"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 // MaxMessageSize defines how large a message can be before we reject it

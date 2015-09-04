@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 var ErrHintedHandoffDisabled = fmt.Errorf("hinted handoff disabled")

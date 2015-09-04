@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/influxdb/influxdb/client"
-	main "github.com/influxdb/influxdb/cmd/influx"
+	"github.com/jportoles/influxdb092/client"
+	main "github.com/jportoles/influxdb092/cmd/influx"
 )
 
 func TestParseCommand_CommandsExist(t *testing.T) {

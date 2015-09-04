@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/influxdb/influxdb/influxql"
+	"github.com/jportoles/influxdb092/influxql"
 )
 
 // Ensure the scanner can scan tokens correctly.

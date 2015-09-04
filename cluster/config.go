@@ -3,7 +3,7 @@ package cluster
 import (
 	"time"
 
-	"github.com/influxdb/influxdb/toml"
+	"github.com/jportoles/influxdb092/toml"
 )
 
 const (

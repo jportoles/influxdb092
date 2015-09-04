@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/snapshot"
+	"github.com/jportoles/influxdb092/snapshot"
 )
 
 // Ensure a manifest can be diff'd so that only newer files are retrieved.

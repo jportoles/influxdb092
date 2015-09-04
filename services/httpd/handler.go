@@ -18,13 +18,13 @@ import (
 
 	"github.com/bmizerany/pat"
 	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/client"
-	"github.com/influxdb/influxdb/cluster"
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/services/continuous_querier"
-	"github.com/influxdb/influxdb/tsdb"
-	"github.com/influxdb/influxdb/uuid"
+	"github.com/jportoles/influxdb092/client"
+	"github.com/jportoles/influxdb092/cluster"
+	"github.com/jportoles/influxdb092/influxql"
+	"github.com/jportoles/influxdb092/meta"
+	"github.com/jportoles/influxdb092/services/continuous_querier"
+	"github.com/jportoles/influxdb092/tsdb"
+	"github.com/jportoles/influxdb092/uuid"
 )
 
 const (

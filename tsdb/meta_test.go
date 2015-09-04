@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/influxdb/influxdb/influxql"
+	"github.com/jportoles/influxdb092/influxql"
 )
 
 // Test comparing seriesIDs for equality.

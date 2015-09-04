@@ -12,10 +12,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/influxdb/influxdb/cmd/influxd/backup"
-	"github.com/influxdb/influxdb/cmd/influxd/help"
-	"github.com/influxdb/influxdb/cmd/influxd/restore"
-	"github.com/influxdb/influxdb/cmd/influxd/run"
+	"github.com/jportoles/influxdb092/cmd/influxd/backup"
+	"github.com/jportoles/influxdb092/cmd/influxd/help"
+	"github.com/jportoles/influxdb092/cmd/influxd/restore"
+	"github.com/jportoles/influxdb092/cmd/influxd/run"
 )
 
 // These variables are populated via the Go linker.

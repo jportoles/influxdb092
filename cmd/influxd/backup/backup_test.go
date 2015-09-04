@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/cmd/influxd"
+	"github.com/jportoles/influxdb092/cmd/influxd"
 )
 
 // Ensure the backup can download from the server and save to disk.

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
+	"github.com/jportoles/influxdb092/influxql"
 )
 
 func TestShardMapper_RawMapperTagSets(t *testing.T) {

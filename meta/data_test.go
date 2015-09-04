@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/meta"
+	"github.com/jportoles/influxdb092/influxql"
+	"github.com/jportoles/influxdb092/meta"
 )
 
 // Ensure a node can be created.

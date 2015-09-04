@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
+	"github.com/jportoles/influxdb092/influxql"
 )
 
 func NewStore(path string) *Store {

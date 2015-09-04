@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/meta"
+	"github.com/jportoles/influxdb092/influxql"
+	"github.com/jportoles/influxdb092/meta"
 )
 
 var sID0 = uint64(1)

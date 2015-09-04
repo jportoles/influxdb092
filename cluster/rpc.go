@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/influxdb/influxdb/cluster/internal"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/cluster/internal"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 //go:generate protoc --gogo_out=. internal/data.proto

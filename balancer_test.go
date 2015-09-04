@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/meta"
+	"github.com/jportoles/influxdb092/meta"
 )
 
 func NewNodes() []meta.NodeInfo {

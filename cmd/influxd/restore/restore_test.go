@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	main "github.com/influxdb/influxdb/cmd/influxd"
-	"github.com/influxdb/influxdb/tsdb"
+	main "github.com/jportoles/influxdb092/cmd/influxd"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 func newConfig(path string, port int) main.Config {

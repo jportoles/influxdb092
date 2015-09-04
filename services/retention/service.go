@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdb/influxdb/meta"
+	"github.com/jportoles/influxdb092/meta"
 )
 
 // Service represents the retention policy enforcement service.

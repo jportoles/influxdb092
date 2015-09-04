@@ -44,7 +44,7 @@ the configuration below.
 ```go
 package main
 
-import "github.com/influxdb/influxdb/client"
+import "github.com/jportoles/influxdb092/client"
 
 const (
 	MyHost        = "localhost"

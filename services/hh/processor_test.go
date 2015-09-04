@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 type fakeShardWriter struct {

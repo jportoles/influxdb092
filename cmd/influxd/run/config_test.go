@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/BurntSushi/toml"
-	"github.com/influxdb/influxdb/cmd/influxd/run"
+	"github.com/jportoles/influxdb092/cmd/influxd/run"
 )
 
 // Ensure the configuration can be parsed.

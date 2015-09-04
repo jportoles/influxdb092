@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/meta"
+	"github.com/jportoles/influxdb092/influxql"
+	"github.com/jportoles/influxdb092/meta"
 )
 
 // QueryExecutor executes every statement in an influxdb Query. It is responsible for

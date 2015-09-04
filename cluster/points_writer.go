@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/meta"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 // ConsistencyLevel represent a required replication criteria before a write can

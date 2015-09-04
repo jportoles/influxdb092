@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/services/graphite"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/services/graphite"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 func BenchmarkParse(b *testing.B) {

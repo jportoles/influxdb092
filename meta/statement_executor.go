@@ -3,7 +3,7 @@ package meta
 import (
 	"fmt"
 
-	"github.com/influxdb/influxdb/influxql"
+	"github.com/jportoles/influxdb092/influxql"
 )
 
 // StatementExecutor translates InfluxQL queries to meta store methods.

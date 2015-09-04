@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
-	"github.com/influxdb/influxdb/influxql"
+	"github.com/jportoles/influxdb092/influxql"
 )
 
 // mapperValue is a complex type, which can encapsulate data from both raw and aggregate

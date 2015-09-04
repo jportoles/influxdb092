@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/cluster"
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/cluster"
+	"github.com/jportoles/influxdb092/meta"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 // Ensures the points writer maps a single point to a single shard.

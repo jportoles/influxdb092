@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/influxdb/influxdb/snapshot"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/jportoles/influxdb092/snapshot"
+	"github.com/jportoles/influxdb092/tsdb"
 )
 
 // MuxHeader is the header byte used for the TCP muxer.
